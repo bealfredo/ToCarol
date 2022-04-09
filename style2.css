@@ -290,6 +290,8 @@ body {
   animation-play-state: paused;
   z-index: 3;
   font-family: ubuntu;
+  user-select: none;
+  pointer-events: none;
 }
 @keyframes showGallery {
   from { opacity: 0;}
