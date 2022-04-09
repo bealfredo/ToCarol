@@ -21,6 +21,9 @@ for(; i < 19; i++){
 }
 document.getElementById('container2').innerHTML = txt;
 
+document.getElementById('toBlack').style.opacity = localStorage.toBlack
+
+
 win()
 
   
@@ -47,9 +50,6 @@ function clickMe(){
     document.getElementById('toBlack').style.opacity = localStorage.toBlack
     
     win();
-
-    console.log(localStorage.candles);
-    cont++;
   } else {
     localStorage.candles = 200;
     localStorage.toBlack = 1;

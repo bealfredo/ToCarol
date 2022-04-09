@@ -76,6 +76,7 @@ body {
   transition: 0.1s;    
   color: var(--primary-color);
   cursor: pointer;
+  user-select: none;
 }
 #button:active {
   color: #e0e0e0;
