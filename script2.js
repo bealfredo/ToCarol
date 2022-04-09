@@ -5,7 +5,6 @@ for(; i < 10; i++){
   txt += `<div class="candle" id="candle${i}">
   <div class="flames" id="flames${i}">
   <div class="font-effect-fire-animation">'</div>
-  <div class="font-effect-fire-animation">'</div>
     </div>
     <div class="wax"></div>
     </div>`
@@ -15,7 +14,6 @@ txt = "";
 for(; i < 19; i++){
   txt += `<div class="candle" id="candle${i}">
   <div class="flames" id="flames${i}">
-  <div class="font-effect-fire-animation">'</div>
   <div class="font-effect-fire-animation">'</div>
     </div>
     <div class="wax"></div>
